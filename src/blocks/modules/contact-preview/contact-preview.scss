@@ -1,0 +1,53 @@
+.contact-preview {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px 15px 0;
+    border-bottom: 2px solid #b1b1b120;
+}
+
+.contact-preview__avatar {
+    min-width: 80px;
+    height: 80px;
+    background: url(../../../img/contact-preview/foto1.png) no-repeat center /cover;
+    border: 5px solid #6f6198;
+    border-radius: 100%;
+    position: relative;
+
+    &::after {
+        content: url(../../../img/contact-preview/status.svg);
+        width: 25px;
+        height: 25px;
+        right: -12px;
+        bottom: 0;
+        position: absolute;
+    }
+}
+
+.contact-preview__info {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 40px;
+}
+
+.contact-preview__name {
+    color: #ffffff;
+    line-height: 30px;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.contact-preview__chat-preview {
+    max-width: 247px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #b59ec6;
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 53px;
+}
