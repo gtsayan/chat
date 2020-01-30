@@ -1,4 +1,4 @@
-modules.define('chat-screen-footer', ['i-bem-dom'], function(provide, bemDom) {
+modules.define('contacts-list', ['i-bem-dom'], function(provide, bemDom) {
 
 provide(bemDom.declBlock(this.name, {
     onSetMod: {

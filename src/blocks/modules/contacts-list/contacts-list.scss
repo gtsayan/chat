@@ -1,0 +1,13 @@
+.contacts-list {
+    overflow-y: scroll;
+    height: 88%;
+
+}
+
+@media (max-width: 667px) {
+    .contacts-list {
+
+        height: 83%;
+
+    }
+}

@@ -25,9 +25,19 @@ body {
 .site-container {
     width: 100%;
     max-width: 1062px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
 
+}
+
+a:hover {
+    transform: scale(1.2);
+
+}
+
+a {
+    transition: all .2s linear;
 }

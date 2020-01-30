@@ -5,6 +5,14 @@
     align-items: center;
     padding: 30px 20px;
     border-bottom: 1px solid #ffffff10;
+    position: relative;
+    height: 12%;
+}
+
+@media (max-width: 568px) {
+    .menu-search {
+        padding: 10px 10px;
+    }
 }
 
 .menu-search__burger {
@@ -12,6 +20,12 @@
     height: 48px;
     background: url(../../../img/menu-search/burger.svg) no-repeat center;
     background-size: contain;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
 }
 
 
@@ -37,5 +51,13 @@
 
     &::placeholder {
         color: #ffffff;
+    }
+}
+
+@media (max-width: 1024px) {
+    .menu-search__search {
+        display: none;
+        position: absolute;
+
     }
 }
